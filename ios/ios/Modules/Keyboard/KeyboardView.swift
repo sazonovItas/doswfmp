@@ -54,7 +54,6 @@ struct KeyboardView: View {
                     .padding(.horizontal)
                 }
 
-                // Track name and artist
                 Text("\(keyboard.name)")
                     .font(.title2)
                     .fontWeight(.bold)
